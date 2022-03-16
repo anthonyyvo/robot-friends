@@ -1,0 +1,16 @@
+/* @font-face {
+    font-family: 'SEGA LOGO FONT';
+    src: local('SEGA LOGO FONT.woff'), url('/Users/omcadmin/Desktop/react-app/my-app/src/SEGA LOGO FONT.woff');
+  }   */
+  @font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('../components/SEGA.woff') format('woff');
+    }
+  
+  h1 {
+      font-family: 'SEGA LOGO FONT';
+      font-size: 3rem;
+      color:aqua;
+  }
